@@ -1,0 +1,146 @@
+<web-app>
+<servlet>
+    <servlet-name>LabRegistrationServlet</servlet-name>
+    <servlet-class>LabRegistrationServlet</servlet-class>
+</servlet>
+<servlet-mapping>
+    <servlet-name>LabRegistrationServlet</servlet-name>
+    <url-pattern>/LabRegistrationServlet</url-pattern>
+</servlet-mapping>
+<servlet>
+    <servlet-name>StudentLoginServlet</servlet-name>
+    <servlet-class>StudentLoginServlet</servlet-class>
+</servlet>
+<servlet-mapping>
+    <servlet-name>StudentLoginServlet</servlet-name>
+    <url-pattern>/StudentLoginServlet</url-pattern>
+</servlet-mapping>
+<servlet>
+    <servlet-name>FacultyLoginServlet</servlet-name>
+    <servlet-class>FacultyLoginServlet</servlet-class>
+</servlet>
+<servlet-mapping>
+    <servlet-name>FacultyLoginServlet</servlet-name>
+    <url-pattern>/FacultyLoginServlet</url-pattern>
+</servlet-mapping>
+<servlet>
+    <servlet-name>WelcomeServlet</servlet-name>
+    <servlet-class>WelcomeServlet</servlet-class>
+</servlet>
+<servlet-mapping>
+    <servlet-name>WelcomeServlet</servlet-name>
+    <url-pattern>/WelcomeServlet</url-pattern>
+</servlet-mapping>
+<servlet>
+    <servlet-name>FacultyWelcomeServlet</servlet-name>
+    <servlet-class>FacultyWelcomeServlet</servlet-class>
+</servlet>
+<servlet-mapping>
+    <servlet-name>FacultyWelcomeServlet</servlet-name>
+    <url-pattern>/FacultyWelcomeServlet</url-pattern>
+</servlet-mapping>
+<servlet>
+    <servlet-name>AdminLoginServlet</servlet-name>
+    <servlet-class>AdminLoginServlet</servlet-class>
+</servlet>
+<servlet-mapping>
+    <servlet-name>AdminLoginServlet</servlet-name>
+    <url-pattern>/AdminLoginServlet</url-pattern>
+</servlet-mapping>
+<servlet>
+    <servlet-name>ManageStudent</servlet-name>
+    <servlet-class>ManageStudent</servlet-class>
+</servlet>
+<servlet-mapping>
+    <servlet-name>ManageStudent</servlet-name>
+    <url-pattern>/ManageStudent</url-pattern>
+</servlet-mapping>
+<servlet>
+    <servlet-name>ManageFaculty</servlet-name>
+    <servlet-class>ManageFaculty</servlet-class>
+</servlet>
+<servlet-mapping>
+    <servlet-name>ManageFaculty</servlet-name>
+    <url-pattern>/ManageFaculty</url-pattern>
+</servlet-mapping>
+<servlet>
+    <servlet-name>ManageCourse</servlet-name>
+    <servlet-class>ManageCourse</servlet-class>
+</servlet>
+<servlet-mapping>
+    <servlet-name>ManageCourse</servlet-name>
+    <url-pattern>/ManageCourse</url-pattern>
+</servlet-mapping>
+<servlet>
+    <servlet-name>ManageDepartment</servlet-name>
+    <servlet-class>ManageDepartment</servlet-class>
+</servlet>
+<servlet-mapping>
+    <servlet-name>ManageDepartment</servlet-name>
+    <url-pattern>/ManageDepartment</url-pattern>
+</servlet-mapping>
+<servlet>
+    <servlet-name>ManageEmployee</servlet-name>
+    <servlet-class>ManageEmployee</servlet-class>
+</servlet>
+<servlet-mapping>
+    <servlet-name>ManageEmployee</servlet-name>
+    <url-pattern>/ManageEmployee</url-pattern>
+</servlet-mapping>
+<servlet>
+    <servlet-name>ResultServlet</servlet-name>
+    <servlet-class>ResultServlet</servlet-class>
+</servlet>
+<servlet-mapping>
+    <servlet-name>ResultServlet</servlet-name>
+    <url-pattern>/ResultServlet</url-pattern>
+</servlet-mapping>
+<servlet>
+    <servlet-name>LibraryServlet</servlet-name>
+    <servlet-class>LibraryServlet</servlet-class>
+</servlet>
+<servlet-mapping>
+    <servlet-name>LibraryServlet</servlet-name>
+    <url-pattern>/LibraryServlet</url-pattern>
+</servlet-mapping>
+<servlet>
+    <servlet-name>FacultyLibraryServlet</servlet-name>
+    <servlet-class>FacultyLibraryServlet</servlet-class>
+</servlet>
+<servlet-mapping>
+    <servlet-name>FacultyLibraryServlet</servlet-name>
+    <url-pattern>/FacultyLibraryServlet</url-pattern>
+</servlet-mapping>
+<servlet>
+    <servlet-name>LibrarianLoginServlet</servlet-name>
+    <servlet-class>LibrarianLoginServlet</servlet-class>
+</servlet>
+<servlet-mapping>
+    <servlet-name>LibrarianLoginServlet</servlet-name>
+    <url-pattern>/LibrarianLoginServlet</url-pattern>
+</servlet-mapping>
+<servlet>
+    <servlet-name>ManageBooks</servlet-name>
+    <servlet-class>ManageBooks</servlet-class>
+</servlet>
+<servlet-mapping>
+    <servlet-name>ManageBooks</servlet-name>
+    <url-pattern>/ManageBooks</url-pattern>
+</servlet-mapping>
+<servlet>
+    <servlet-name>IssuedBooksFaculty</servlet-name>
+    <servlet-class>IssuedBooksFaculty</servlet-class>
+</servlet>
+<servlet-mapping>
+    <servlet-name>IssuedBooksFaculty</servlet-name>
+    <url-pattern>/IssuedBooksFaculty</url-pattern>
+</servlet-mapping>
+<servlet>
+    <servlet-name>IssuedBooksStudent</servlet-name>
+    <servlet-class>IssuedBooksStudent</servlet-class>
+</servlet>
+<servlet-mapping>
+    <servlet-name>IssuedBooksStudent</servlet-name>
+    <url-pattern>/IssuedBooksStudent</url-pattern>
+</servlet-mapping>
+</web-app>
